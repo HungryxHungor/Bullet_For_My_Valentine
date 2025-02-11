@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(240, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.welcome-image {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+}
+
+button {
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.yes-button {
+  background: lightyellow;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.No-Aurthi {
+  background: mintgreen;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.omg {
+  font-size: 26px;
+}
+
+.Aurthiii {
+  font-size: 24px;
+}
